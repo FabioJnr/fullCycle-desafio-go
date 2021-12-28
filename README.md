@@ -1,4 +1,4 @@
-# FullCycle Go
+# FullCycle Desafio Docker Go
 
 Desafio do curso FullCycle
 
@@ -9,18 +9,15 @@ Desafio do curso FullCycle
 
 ### Para baixar o código fonte e executar :octocat:
 
-```
-git clone https://github.com/FabioJnr/fullCycle-desafio-go.git
-
-cd desafio-golang
-
-docker build -t silvafj/desafio-golang .
-```
+|                                                                                                 |
+| ----------------------------------------------------------------------------------------------- |
+| **1 - clonar o repositório**<br> git clone https://github.com/FabioJnr/fullCycle-desafio-go.git |
+| **2 - abrir a pasta criada**<br> cd desafio-golang                                              |
+| **3 - Fazer o build da aplicação**<br> docker build -t silvafj/desafio-golang .                 |
 
 <br/>
-<br/>
 
-### Para baizar a imagem :arrow_double_down:
+### Para baixar a imagem :arrow_double_down:
 
 ```
 docker run silvafj/desafio-golang
