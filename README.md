@@ -7,15 +7,22 @@ Desafio do curso FullCycle
 > Fazer um print da mensagem "FullCycle Rocks"
 > Imagem deve ter no máximo 2MBs
 
-### Para rodar :zap:
+### Para baixar o código fonte e executar :octocat:
 
 ```
 git clone https://github.com/FabioJnr/fullCycle-desafio-go.git
 
 cd desafio-golang
 
-docker-compose up [-d]
+docker build -t silvafj/desafio-golang .
 ```
 
 <br/>
 <br/>
+
+### Para baizar a imagem :arrow_double_down:
+
+```
+docker run silvafj/desafio-golang
+
+```
